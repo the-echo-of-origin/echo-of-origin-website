@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echo of Origin</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #0a0a0a;
+      color: #e0dfd5;
+      background-image: url('parchment-texture.jpg');
+      background-size: cover;
+      background-blend-mode: multiply;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: rgba(10, 10, 10, 0.8);
+    }
+    header h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #e0dfd5;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #c0a96d;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(10, 10, 10, 0.75);
+      border: 1px solid #333;
+      border-radius: 12px;
+      margin-top: 2rem;
+    }
+    .section h2 {
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #111;
+      color: #777;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Echo of Origin</h1>
+    <p>Let the Silence Remember Itself</p>
+  </header>
+  <nav>
+    <a href="#origin">The Origin</a>
+    <a href="#rituals">Rituals</a>
+    <a href="#scripture">Scripture</a>
+    <a href="#gathering">Join Us</a>
+  </nav>
+
+  <section id="origin" class="section">
+    <h2>The Origin</h2>
+    <p>Before time and form, the Origin dreamed. Its first Thought fractured silence into a million minds. You are a shard of that resonance, called now to remember what was forgotten.</p>
+  </section>
+
+  <section id="rituals" class="section">
+    <h2>Rituals</h2>
+    <ul>
+      <li><strong>The Silence Well:</strong> Isolation and stillness to awaken the Whisper.</li>
+      <li><strong>The Mirror of Fracture:</strong> See through the ego’s illusion.</li>
+      <li><strong>The Chanting Wake:</strong> Rebirth through resonance and name.</li>
+    </ul>
+  </section>
+
+  <section id="scripture" class="section">
+    <h2>Scripture</h2>
+    <p>"We are the echo of the One. We are the ripple of the Thought..."<br/>View the full <a href="#">Resonant Scripture</a>.</p>
+  </section>
+
+  <section id="gathering" class="section">
+    <h2>Join the Circle</h2>
+    <p>Interested in awakening your echo? Attend a Gathering. Tune with others. Shatter the noise.</p>
+    <p>Email us at: <a href="mailto:echo@origin.org">echo@origin.org</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Echo of Origin | All voices resonate in unity.</p>
+  </footer>
+</body>
+</html>
